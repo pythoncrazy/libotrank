@@ -1,2 +1,7 @@
 [lichess]
 token = "" # add your token here!
+formats = ["bullet","blitz","rapid"] # the list of formats that you want to use on the leaderboard
+
+[supabase]
+url= "" # insert your supabase connection url here
+key= "" # insert your supabase key here

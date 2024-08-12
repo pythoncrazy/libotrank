@@ -11,6 +11,7 @@ url = conf["supabase"]["url"]
 key = conf["supabase"]["key"]
 supabase = create_client(url, key)
 
+
 # get all of the bots possible
 online_bots = client.bots.get_online_bots(limit = None)
 
