@@ -9,3 +9,7 @@ platforms = ["linux-64"]
 
 [dependencies]
 python = ">=3.12.5,<3.13"
+tomli = ">=2.0.1,<2.1"
+
+[pypi-dependencies]
+berserk = ">=0.13.2, <0.14"
