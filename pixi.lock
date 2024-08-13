@@ -16,7 +16,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/certifi-2024.7.4-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/deprecation-2.1.0-pyh9f0ad1d_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/exceptiongroup-1.2.2-pyhd8ed1ab_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/gotrue-2.6.1-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/gotrue-2.6.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/h11-0.14.0-pyhd8ed1ab_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/h2-4.1.0-pyhd8ed1ab_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/hpack-4.0.0-pyh9f0ad1d_0.tar.bz2
@@ -251,13 +251,13 @@ packages:
   timestamp: 1720869435725
 - kind: conda
   name: gotrue
-  version: 2.6.1
+  version: 2.6.2
   build: pyhd8ed1ab_0
   subdir: noarch
   noarch: python
-  url: https://conda.anaconda.org/conda-forge/noarch/gotrue-2.6.1-pyhd8ed1ab_0.conda
-  sha256: 1c912a22b8e097a40b554ade9a184c20a79aca656b1b056a252595aaaf9d0ee3
-  md5: aa8614497804373a7cd99ca251d38a13
+  url: https://conda.anaconda.org/conda-forge/noarch/gotrue-2.6.2-pyhd8ed1ab_0.conda
+  sha256: d29210a4c5373a1f8a9cfec373bd4f4cbac74f3f0c6018f0b8f349c591972fe5
+  md5: b595d85528babd4f958d730f1e6f6710
   depends:
   - httpx >=0.24,<0.28
   - pydantic >=1.10,<3
@@ -266,8 +266,8 @@ packages:
   license_family: MIT
   purls:
   - pkg:pypi/gotrue?source=conda-forge-mapping
-  size: 33554
-  timestamp: 1721879874554
+  size: 33904
+  timestamp: 1723492174134
 - kind: conda
   name: h11
   version: 0.14.0

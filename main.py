@@ -12,8 +12,10 @@ key = conf["supabase"]["key"]
 supabase = create_client(url, key)
 
 
-# get all of the bots possible
+# get all of the bot online on lichess possible
 online_bots = client.bots.get_online_bots(limit = None)
+# get all of the bots stored in the supabase table
+supabase_bots = supabase.table("list-of-bots").select("*").execute()
 
 name_of_bot_accounts = set(
     line.strip() for line in open("bullet_bot.names")
